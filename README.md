@@ -10,19 +10,18 @@ Une application web robuste et ergonomique permettant d'effectuer des opération
 * **Gestion d'erreurs avancée** :
     * Validation des types de données (numérique uniquement).
     * Blocage de la **division par zéro** avec message d'alerte.
-    * Détection des **nombres trop grands** (Overflow).
-    * Double validation : Côté client (HTML5) et côté serveur (Go).
+    * Double validation : Côté client (HTML) et côté serveur (Go).
 
 ## 🛠️ Technologies utilisées
 * **Backend** : Go (Golang) - Utilisation de `net/http` et `html/template`.
-* **Frontend** : HTML5 / CSS3 (Design moderne sans framework).
+* **Frontend** : HTML / CSS (Design moderne sans framework).
 * **Architecture** : Pattern MVC simplifié (Model / View / Controller).
 
 ---
 
 ## 📁 Structure du projet
 ```text
-proj2/
+calculatrice/
 ├── controller/
 │   └── controller.go   # Logique métier et gestion des requêtes
 ├── router/
@@ -35,6 +34,7 @@ proj2/
 │   └── home.html       # Interface utilisateur via Go Templates
 └── main.go             # Point d'entrée de l'application
 
+🛠️ Installation et Lancement
 1. Cloner le dépôt :
     git clone https://github.com/joffretkevin727/calculatrice.git
 
